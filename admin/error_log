@@ -1,0 +1,173 @@
+[01-Jul-2025 06:41:46 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CLOAKER_ROOT_PATH" in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 6
+[01-Jul-2025 06:43:07 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CLOAKER_ROOT_PATH" in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 6
+[01-Jul-2025 07:27:40 UTC] PHP Warning:  Undefined variable $parsed_wp_ad_bots in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 217
+[01-Jul-2025 07:27:40 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php:217
+Stack trace:
+#0 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 217
+[01-Jul-2025 07:37:30 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CLOAKER_ROOT_PATH" in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php:106
+Stack trace:
+#0 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 106
+[01-Jul-2025 07:37:32 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CLOAKER_ROOT_PATH" in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php:106
+Stack trace:
+#0 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 106
+[01-Jul-2025 07:37:34 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CLOAKER_ROOT_PATH" in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php:106
+Stack trace:
+#0 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 106
+[01-Jul-2025 07:37:35 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CLOAKER_ROOT_PATH" in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php:106
+Stack trace:
+#0 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 106
+[01-Jul-2025 07:47:32 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CLOAKER_ROOT_PATH" in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 12
+[01-Jul-2025 07:52:39 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CLOAKER_ROOT_PATH" in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php:106
+Stack trace:
+#0 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 106
+[01-Jul-2025 07:55:53 UTC] PHP Warning:  Undefined variable $is_admin_panel_request in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 8
+[01-Jul-2025 07:55:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function check_admin_auth() in /home/mszffsbpwz/bonuslistesi.xyz/admin/includes/admin_header.php:4
+Stack trace:
+#0 /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php(4): require_once()
+#1 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/includes/admin_header.php on line 4
+[01-Jul-2025 08:01:34 UTC] PHP Parse error:  syntax error, unexpected string content "Mozilla/5.0 (Linux; Android 6....", expecting "]" in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 293
+[01-Jul-2025 08:06:56 UTC] PHP Warning:  Undefined variable $message in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 29
+[01-Jul-2025 08:06:56 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ADMIN_URL" in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 30
+[01-Jul-2025 08:08:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ip_in_cidr() in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php:497
+Stack trace:
+#0 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 497
+[01-Jul-2025 08:29:38 UTC] PHP Warning:  require_once(/home/mszffsbpwz/bonuslistesi.xyz/includes/admin_header.php): Failed to open stream: No such file or directory in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 2
+[01-Jul-2025 08:29:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/mszffsbpwz/bonuslistesi.xyz/includes/admin_header.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/mszffsbpwz/bonuslistesi.xyz/config.php:2
+Stack trace:
+#0 /home/mszffsbpwz/bonuslistesi.xyz/admin/includes/admin_header.php(3): require_once()
+#1 /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php(4): require_once('/home/mszffsbpw...')
+#2 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 2
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $total_cloaker_actions in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 328
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $wp_views_cloaker in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 349
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $mobile_views_cloaker in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 370
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $total_bot_detections in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 391
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $total_blacklisted_blocks in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 412
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $max_log_lines_for_dashboard in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 460
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $total_users in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 522
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $change_color_class_total_users in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 524
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $percentage_change_total_users in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 525
+[01-Jul-2025 08:52:51 UTC] PHP Deprecated:  abs(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 525
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $increase_from_last_month_users in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 527
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $increase_from_last_month_users in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 527
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $active_users_30_days in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 552
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $change_color_class_active_users in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 554
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $percentage_change_active_users in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 555
+[01-Jul-2025 08:52:51 UTC] PHP Deprecated:  abs(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 555
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $active_users_change in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 557
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $active_users_change in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 557
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $active_user_ratio_percentage in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 565
+[01-Jul-2025 08:52:51 UTC] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 565
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $change_color_class_today_users in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 580
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $percentage_change_today_users in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 581
+[01-Jul-2025 08:52:51 UTC] PHP Deprecated:  abs(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 581
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $today_new_users in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 586
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $overall_growth_change_color in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 599
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $overall_growth_percentage in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 600
+[01-Jul-2025 08:52:51 UTC] PHP Deprecated:  abs(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 600
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $total_users in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 605
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $change_color_class_bonus_clicks_7_days in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 618
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $percentage_change_bonus_clicks_7_days in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 619
+[01-Jul-2025 08:52:51 UTC] PHP Deprecated:  abs(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 619
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $bonus_clicks_change_7_days in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 621
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $bonus_clicks_change_7_days in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 621
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $total_bonus_clicks_7_days in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 626
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $change_color_class_visits_7_days in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 639
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $percentage_change_visits_7_days in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 640
+[01-Jul-2025 08:52:51 UTC] PHP Deprecated:  abs(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 640
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $visits_change_7_days in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 642
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $visits_change_7_days in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 642
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $total_visits_7_days in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 647
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $chart_labels_total_users in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 740
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $chart_data_total_users in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 741
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $active_user_ratio_percentage in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 764
+[01-Jul-2025 08:52:51 UTC] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 764
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $chart_labels_today_sales in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 794
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $chart_data_today_sales in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 795
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $chart_labels_total_users in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 819
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $chart_data_total_users in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 820
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $chart_labels_revenue in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 843
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $chart_data_revenue in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 844
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $chart_labels_unique_visits in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 867
+[01-Jul-2025 08:52:51 UTC] PHP Warning:  Undefined variable $chart_data_unique_visits in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 868
+[01-Jul-2025 09:00:09 UTC] PHP Warning:  Undefined variable $max_lines_for_display in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 373
+[01-Jul-2025 09:00:09 UTC] PHP Warning:  Undefined variable $max_lines_for_display in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 377
+[01-Jul-2025 09:09:10 UTC] PHP Warning:  Undefined variable $is_admin_panel_request in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 8
+[01-Jul-2025 09:09:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function check_admin_auth() in /home/mszffsbpwz/bonuslistesi.xyz/admin/includes/admin_header.php:4
+Stack trace:
+#0 /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php(4): require_once()
+#1 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/includes/admin_header.php on line 4
+[01-Jul-2025 09:39:26 UTC] PHP Warning:  Undefined variable $cloaker_log_file_path in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 312
+[01-Jul-2025 09:39:26 UTC] PHP Deprecated:  file(): Passing null to parameter #1 ($filename) of type string is deprecated in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 312
+[01-Jul-2025 09:39:26 UTC] PHP Fatal error:  Uncaught ValueError: Path must not be empty in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php:312
+Stack trace:
+#0 /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php(312): file()
+#1 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 312
+[01-Jul-2025 09:43:57 UTC] PHP Warning:  Undefined variable $cloaker_log_file_path in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 312
+[01-Jul-2025 09:43:57 UTC] PHP Deprecated:  file(): Passing null to parameter #1 ($filename) of type string is deprecated in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 312
+[01-Jul-2025 09:43:57 UTC] PHP Fatal error:  Uncaught ValueError: Path must not be empty in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php:312
+Stack trace:
+#0 /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php(312): file()
+#1 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 312
+[01-Jul-2025 09:45:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 780
+[01-Jul-2025 09:45:10 UTC] PHP Warning:  Undefined variable $cloaker_log_file_path in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 312
+[01-Jul-2025 09:45:10 UTC] PHP Deprecated:  file(): Passing null to parameter #1 ($filename) of type string is deprecated in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 312
+[01-Jul-2025 09:45:10 UTC] PHP Fatal error:  Uncaught ValueError: Path must not be empty in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php:312
+Stack trace:
+#0 /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php(312): file()
+#1 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php on line 312
+[01-Jul-2025 10:00:36 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CLOAKER_DB_NAME" in /home/mszffsbpwz/bonuslistesi.xyz/config.php:193
+Stack trace:
+#0 /home/mszffsbpwz/bonuslistesi.xyz/admin/includes/admin_header.php(3): require_once()
+#1 /home/mszffsbpwz/bonuslistesi.xyz/admin/manage_cloaker.php(4): require_once('/home/mszffsbpw...')
+#2 {main}
+  thrown in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 193
+[01-Jul-2025 10:12:38 UTC] PHP Warning:  Constant BASE_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 789
+[01-Jul-2025 10:12:38 UTC] PHP Warning:  Constant ADMIN_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 790
+[01-Jul-2025 10:24:35 UTC] PHP Warning:  Constant BASE_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 789
+[01-Jul-2025 10:24:35 UTC] PHP Warning:  Constant ADMIN_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 790
+[01-Jul-2025 10:24:38 UTC] PHP Warning:  Constant BASE_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 789
+[01-Jul-2025 10:24:38 UTC] PHP Warning:  Constant ADMIN_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 790
+[01-Jul-2025 10:28:13 UTC] PHP Warning:  Constant BASE_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 767
+[01-Jul-2025 10:28:13 UTC] PHP Warning:  Constant ADMIN_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 768
+[01-Jul-2025 10:28:16 UTC] PHP Warning:  Constant BASE_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 767
+[01-Jul-2025 10:28:16 UTC] PHP Warning:  Constant ADMIN_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 768
+[01-Jul-2025 10:28:16 UTC] PHP Warning:  Constant BASE_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 767
+[01-Jul-2025 10:28:16 UTC] PHP Warning:  Constant ADMIN_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 768
+[01-Jul-2025 10:28:17 UTC] PHP Warning:  Constant BASE_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 767
+[01-Jul-2025 10:28:17 UTC] PHP Warning:  Constant ADMIN_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 768
+[01-Jul-2025 10:28:20 UTC] PHP Warning:  Constant BASE_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 767
+[01-Jul-2025 10:28:20 UTC] PHP Warning:  Constant ADMIN_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 768
+[01-Jul-2025 10:28:20 UTC] PHP Warning:  Constant BASE_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 767
+[01-Jul-2025 10:28:20 UTC] PHP Warning:  Constant ADMIN_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 768
+[01-Jul-2025 10:28:21 UTC] PHP Warning:  Constant BASE_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 767
+[01-Jul-2025 10:28:21 UTC] PHP Warning:  Constant ADMIN_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 768
+[01-Jul-2025 10:28:22 UTC] PHP Warning:  Constant BASE_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 767
+[01-Jul-2025 10:28:22 UTC] PHP Warning:  Constant ADMIN_URL already defined in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 768
+[01-Jul-2025 21:25:55 UTC] PHP Parse error:  Unclosed '(' in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 1849
+[01-Jul-2025 21:32:10 UTC] PHP Parse error:  Unclosed '(' in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 1849
+[01-Jul-2025 21:32:11 UTC] PHP Parse error:  Unclosed '(' in /home/mszffsbpwz/bonuslistesi.xyz/config.php on line 1849

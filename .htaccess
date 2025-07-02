@@ -1,0 +1,26 @@
+# BEGIN CLOAKER_REWRITE_ROOT
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# 1. Eğer istek /admin/ dizininden geliyorsa, hiçbir kuralı uygulama ve normal işleme devam et
+RewriteRule ^admin/ - [L]
+
+# 2. WordPress kaynak dosyaları (css, js, images, uploads vb.) için özel kural
+# Eğer URL /wp-admin/, /wp-includes/, /wp-content/ ile başlıyorsa,
+# ve bu dosya /website/ altında fiziksel olarak varsa,
+# isteği doğrudan /website/ altına yeniden yaz (URL'de /website görünmeyecek)
+RewriteCond %{REQUEST_URI} ^/(wp-admin|wp-includes|wp-content)/(.*)$ [NC]
+RewriteCond %{DOCUMENT_ROOT}/website/%1/%2 -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/website/%1/%2 -d
+RewriteRule ^(wp-admin|wp-includes|wp-content)/(.*)$ /website/$1/$2 [L,PT] # PT: Pass Through to next handler (PHP)
+
+# 3. Kalan tüm istekler için (ana sayfalar, diğer PHP scriptleri),
+# PHP cloaker'ı tetiklemek üzere index.php'ye dahili olarak yönlendir.
+# index.php dosyasının cloaker mantığını içerdiğinden emin ol.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L] # Tüm istekleri root index.php'ye yönlendir
+</IfModule>
+# END CLOAKER_REWRITE_ROOT
+
+# Bu dosyanın altında başka WordPress veya eski site .htaccess kuralları olmamalıdır.
